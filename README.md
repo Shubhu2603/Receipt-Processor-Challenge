@@ -1,7 +1,7 @@
 
 # Receipt Processor Challenge
 
-This project is a web service that processes receipts and calculates points based on specific rules. It provides two main endpoints: one for processing receipts and another for retrieving points for a processed receipt.
+This is a web service that processes receipts and calculates points based on specific rules. It provides two main endpoints: one for processing receipts and another for retrieving points for a processed receipt.
 
 ## Setup and Running (using Docker)
 
