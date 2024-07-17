@@ -19,23 +19,13 @@ This method requires no prerequisites other than Docker. If you don't have Docke
      cd receipt-processor-challenge
      ```
 
-3. Create a file named `Dockerfile` in the project root with the following content:
+3. Build the Docker image:
     ```
-    FROM node:14
-    WORKDIR /usr/src/app
-    COPY package*.json ./
-    RUN npm install
-    COPY . .
-    EXPOSE 3000
-    CMD [ "node", "app.js" ]
-    ```
-4. Build the Docker image:
-    ```
-    docker build -t receipt-processor .
+    docker build -t receipt-processor-challenge .
     ```
 5. Run the Docker container:
     ```
-    docker run -p 3000:3000 receipt-processor
+    docker run -it -p 3000:3000 receipt-processor-challenge
     ```
 
 The server will start running on `http://localhost:3000`.
