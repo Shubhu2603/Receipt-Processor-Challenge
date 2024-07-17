@@ -1,0 +1,14 @@
+{
+    "name": "receipt-processor",
+    "version": "1.0.0",
+    "description": "Receipt Processor API",
+    "main": "app.js",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "uuid": "^8.3.2"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}
