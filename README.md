@@ -1,5 +1,5 @@
 
-# Receipt Processor
+# Receipt Processor Challenge
 
 This project is a web service that processes receipts and calculates points based on specific rules. It provides two main endpoints: one for processing receipts and another for retrieving points for a processed receipt.
 
@@ -11,7 +11,7 @@ This method requires no prerequisites other than Docker. If you don't have Docke
    * using HTTPS
      ```
      git clone git@github.com:Shubhu2603/receipt-processor-challenge.git
-     cd receipt-processor
+     cd receipt-processor-challenge
      ```
    * using SSH
      ```
