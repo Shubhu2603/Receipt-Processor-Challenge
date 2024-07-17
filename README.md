@@ -10,13 +10,13 @@ This method requires no prerequisites other than Docker. If you don't have Docke
 1. Clone this repository:
    * using HTTPS
      ```
-     git clone git@github.com:Shubhu2603/receipt-processor-challenge.git
+     git clone https://github.com/Shubhu2603/receipt-processor-challenge.git 
      cd receipt-processor-challenge
      ```
    * using SSH
      ```
-     git clone <repository-url>
-     cd receipt-processor
+     git clone git@github.com:Shubhu2603/receipt-processor-challenge.git
+     cd receipt-processor-challenge
      ```
 
 3. Create a file named `Dockerfile` in the project root with the following content:
