@@ -3,6 +3,17 @@
 
 This is a web service that processes receipts and calculates points based on specific rules. It provides two main endpoints: one for processing receipts and another for retrieving points for a processed receipt.
 
+## Tech Stack
+
+- **Backend**: Node.js
+- **Framework**: Express.js
+- **API**: RESTful
+- **Data Storage**: In-memory (non-persistent)
+- **Containerization**: Docker
+- **Version Control**: Git
+- **Testing**: Manual via cURL or Postman (as per current implementation)
+- **Language**: JavaScript
+  
 ## Setup and Running (using Docker)
 
 This method requires no prerequisites other than Docker. If you don't have Docker installed, you can download and install it from [https://www.docker.com/get-started](https://www.docker.com/get-started).
